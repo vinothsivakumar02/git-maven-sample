@@ -7,6 +7,6 @@ public class TestJenkinsCalculator {
     @Test
     public void addTest(){
         JenkinsCalculator jenkinsCalculator = new JenkinsCalculator();
-        assertEquals(jenkinsCalculator.addNumbers(1,2),3);
+        assertEquals(jenkinsCalculator.addNumbers(1,3),4);
     }
 }
